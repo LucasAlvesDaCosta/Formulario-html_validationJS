@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Atividade Avaliativa Javascript</title>
+  </head>
+  <body>
+    
+    <h1>Atividade Avaliativa Javascript</h1>
+    <div class="mensagem sucesso">
+      Enviado com sucesso!
+      <a href="#" class="close">X</a>
+    </div>
+    <div class="mensagem erro">
+      Dados incompletos!
+      <a href="#" class="close">X</a>
+    </div>
+    <form >
+    
+      <label for="inputnome">Nome:</label>
+      <input type="text" id="inputnome" placeholder="Informe seu nome." value="">
+      <label for="inputsobrenome">Sobrenome:</label>
+      <input type="text" id="inputsobrenome" placeholder="Informe seu sobrenomenome." value="">
+      <label for="inputtelefone">Telefone:</label>
+      <input type="text" id="inputtelefone" placeholder="0099998888" maxlength="11" value="">
+      <label for="inputemail">Email:</label>
+      <input type="email" id="inputemail" placeholder="email@email.com" value="">
+      <input type="reset" value="Limpar"></input>
+      <input type="submit" name="send" value="Enviar" id="send" onclick="valida_form()"></input>
+    </form>
+    <script type="text/javascript" src="js/arq.js"></script>
+  </body>
+ 
+</html>
